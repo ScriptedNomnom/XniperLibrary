@@ -877,3 +877,4 @@ function Xniper:CreateWindow(options)
 
 	return Xniper
 end
+return Xniper
