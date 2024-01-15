@@ -247,7 +247,7 @@ function Xniper:CreateWindow(options)
 			Tab["11"]["Name"] = options.name;
 			Tab["11"]["Visible"] = false;
 			if Tab["11"]["Name"] == "Items" then
-				Tab["11"]["CanvasSize"] = UDim2.new(0, 0, 10, 0);
+				Tab["11"]["CanvasSize"] = UDim2.new(0, 0, 20, 0);
 			end
 
 			Tab["1b"] = Instance.new("UIListLayout", Tab["11"]);
