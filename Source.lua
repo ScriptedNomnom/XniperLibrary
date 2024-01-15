@@ -1,3 +1,4 @@
+--Library
 local Players = game:GetService("Players")
 local tween = game:GetService("TweenService")
 local runService = game:GetService("RunService")
@@ -241,6 +242,7 @@ function Xniper:CreateWindow(options)
 			Tab["11"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 			Tab["11"]["BackgroundTransparency"] = 1;
 			Tab["11"]["Size"] = UDim2.new(0, 397, 0, 268);
+			Tab["11"]["CanvasSize"] = UDim2.new(0, 0, 10, 0)
 			Tab["11"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 			Tab["11"]["ScrollBarThickness"] = 6;
 			Tab["11"]["Name"] = Tab["9"].Name;
